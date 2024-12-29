@@ -5,9 +5,9 @@
 
 import bpy
 
-def mirror_drivers():
+def mirror_drivers(armatureName):
     # Get the armature
-    armature = bpy.data.objects["Armature"]
+    armature = bpy.data.objects[armatureName]
     
     if not armature.animation_data or not armature.animation_data.drivers:
         print("No animation data or drivers found!")
@@ -87,7 +87,7 @@ def mirror_drivers():
 
 # Run the function
 try:
-    mirror_drivers()
+    mirror_drivers("Armature")
     print("Driver mirroring completed successfully!")
 except Exception as e:
     print(f"An error occurred: {str(e)}")
