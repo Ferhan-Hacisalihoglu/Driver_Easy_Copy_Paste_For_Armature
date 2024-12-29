@@ -10,7 +10,7 @@ This Blender script mirrors animation drivers from the left side (L) to the righ
 
 ---
 
-# Turkish
+# Türkçe
 
 ## Tanım
 
