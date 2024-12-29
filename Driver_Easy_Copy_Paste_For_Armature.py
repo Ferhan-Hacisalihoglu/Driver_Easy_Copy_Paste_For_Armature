@@ -1,4 +1,4 @@
-#Code written by Ferhan Hacısalihoğlu:
+# Code written by Ferhan Hacısalihoğlu:
 # This script retrieves the existing animation drivers of an armature (named "Armature") in Blender,
 # and creates mirrored drivers for the right side by copying the left side (L) drivers and adjusting them accordingly.
 # It also copies each driver and its variables, modifying them to reflect the right side (R).
