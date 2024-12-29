@@ -8,7 +8,7 @@ This Blender script mirrors animation drivers from the left side (L) to the righ
 -The script works on an armature named "Armature".
 -It copies drivers related to rotation and adjusts variables for mirrored bone movements.
 
-
+---
 
 # Turkish
 
